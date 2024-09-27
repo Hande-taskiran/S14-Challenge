@@ -22,7 +22,7 @@ public class MainTest {
     void setUp() {
         hamburger = new Hamburger("Basic", "NORMAL", 4, "WRAP");
         healthyBurger = new HealthyBurger("Vegan Burger", 5.67, "Sandwich");
-        deluxeBurger = new DeluxeBurger();
+        deluxeBurger = new DeluxeBurger("name", "meat", "breadRollType");
     }
 
     @DisplayName("Hamburger sınıfı doğru Access Modifierlara sahip mi")
